@@ -5,7 +5,7 @@ typedef struct{
     float notas;
     char nombre[20];
     char curso;
-    char materia[20];
+    char materia;
 
 }calificaciones ;
 
@@ -34,14 +34,27 @@ void imprimirEstadoAlumno(calificaciones vector[], int cantidad){
             p=vect[idx].nroAlumno -1;                 
        }
        vector_notas[p]=vector_notas[p]/3;
-      
        for(int idx=0; idx < notas_cant; idx++){
            float promedio=0.0;
 
        }
-
         for(int idx=0; idx < notas_cant; idx ++)
            printf("Alumno %d Imprime un promedio de  %.2f\n",idx+1,vector_notas[idx]);
+    }
+
+    void calcularMateria(calificaciones vecv[], int cant){
+        int proceso_vec[cant];
+        for(int idx = 0 ; idx < cant ; idx++ ){
+            proceso_vec[idx]=0;      
+        }
+        for (int longitud =0; longitud < cant; longitud++){
+            if(vecv[longitud].materia == 'P'){
+                proceso_vec[vecv[longitud].nroAlumno -1]++;
+            }
+        }
+        for (int idx=0; idx < cant; idx++){
+            printf("El alumno %d cursa %d veces la materia Programacion\n", idx+1, proceso_vec[idx] );
+        }
     }
 
 int main(){
@@ -49,7 +62,7 @@ int main(){
         .nroAlumno=1,
         .nombre="Rodrigo",
         .curso='E',
-        .materia="Programacion",
+        .materia='P',
         .notas=7
         
     };
@@ -58,7 +71,7 @@ int main(){
         .nroAlumno=1,
         .nombre="Rodrigo",
         .curso='E',
-        .materia="Programacion",
+        .materia='P',
         .notas=5
         
     };
@@ -66,7 +79,7 @@ int main(){
         .nroAlumno=1,
         .nombre="Rodrigo",
         .curso='E',
-        .materia="Python",
+        .materia='C',
         .notas=9
         
     };
@@ -78,5 +91,6 @@ int main(){
 
     imprimirEstadoAlumno(alumnos,2);
     calcularNotas(alumnos,3);
+    calcularMateria(alumnos,3);
 
 }
