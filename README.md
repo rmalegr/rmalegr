@@ -33,7 +33,7 @@ Estoy formado como Full Stack Web Developer y estudié en el bootcamp Soy Henry.
 
 Actualmente sigo ampliando mis conocimientos de Front-End Web, y también me gusta el lenguaje Angular js
 
-
+https://github-readme-stats.vercel.app/api?username=rmalegr
 
 
 
