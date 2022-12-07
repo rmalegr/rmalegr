@@ -29,6 +29,11 @@ Bienvenidos a mi perfil de gitHub , Soy Rodrigo Mauricio Alegre desarrollador fu
 💬 Me considero una persona muy creativa
 💬 Compromiso y pensamiento crítico
 
+Estoy formado como Full Stack Web Developer y estudié en el bootcamp Soy Henry.
+
+Actualmente sigo ampliando mis conocimientos de Front-End Web, y también me gusta el lenguaje Angular js
+
+
 
 
 
