@@ -33,7 +33,7 @@ Estoy formado como Full Stack Web Developer y estudié en el bootcamp Soy Henry.
 
 Actualmente sigo ampliando mis conocimientos de Front-End Web, y también me gusta el lenguaje Angular js
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rmalegr)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rmalegr&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
